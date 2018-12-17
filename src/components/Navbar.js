@@ -35,7 +35,7 @@ const Navbar = class extends React.Component {
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item" title="Logo">
-          <code>TYPO3 contribution Josef Glatz</code>
+          <pre>Open Source contribution blog by Josef Glatz</pre>
         </Link>
         {/* Hamburger menu */}
         <div className="navbar-burger burger" data-target="navMenu">
@@ -48,15 +48,6 @@ const Navbar = class extends React.Component {
       <div className="navbar-start has-text-centered">
         <Link className="navbar-item" to="/about">
           About
-        </Link>
-        <Link className="navbar-item" to="/products">
-          Products
-        </Link>
-        <Link className="navbar-item" to="/contact">
-          Contact
-        </Link>
-        <Link className="navbar-item" to="/contact/examples">
-          Form Examples
         </Link>
       </div>
       <div className="navbar-end has-text-centered">
